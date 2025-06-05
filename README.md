@@ -24,7 +24,6 @@ REST-API/
 ├── package.json
 └── .env            # Zmienne środowiskowe
 
-
 ## Uruchomienie lokalne
 
 1. Sklonuj repozytorium:
@@ -41,10 +40,11 @@ npm install
 ```
 
 3. Utwórz plik .env i dodaj zmienne środowiskowe:
-
+```bash
 PORT=3000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+```
 
 4. Uruchom serwer:
 
