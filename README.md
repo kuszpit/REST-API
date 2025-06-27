@@ -11,19 +11,6 @@ Prosty serwer REST API stworzony przy użyciu Node.js i Express.js. Umożliwia p
 - dotenv
 - nodemon
 
-## Struktura projektu
-
-REST-API/
-├── tests/          # Testy jednostkowe
-├── config/         # Konfiguracja bazy danych
-├── controllers/    # Logika biznesowa (handler'y)
-├── middleware/     # Middleware, np. autoryzacja
-├── models/         # Modele danych (Mongoose)
-├── routes/         # Ścieżki API
-├── server.js       # Punkt wejścia aplikacji
-├── package.json
-└── .env            # Zmienne środowiskowe
-
 ## Uruchomienie lokalne
 
 1. Sklonuj repozytorium:
