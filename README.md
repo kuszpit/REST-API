@@ -13,7 +13,6 @@ Prosty serwer REST API stworzony przy użyciu Node.js i Express.js. Umożliwia p
 
 ## Struktura projektu
 
-```
 REST-API/
 ├── tests/          # Testy jednostkowe
 ├── config/         # Konfiguracja bazy danych
@@ -24,7 +23,6 @@ REST-API/
 ├── server.js       # Punkt wejścia aplikacji
 ├── package.json
 └── .env            # Zmienne środowiskowe
-```
 
 ## Uruchomienie lokalne
 
@@ -42,11 +40,12 @@ npm install
 ```
 
 3. Utwórz plik .env i dodaj zmienne środowiskowe:
-```
+```bash
 PORT=3000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 ```
+
 4. Uruchom serwer:
 
 ```bash
